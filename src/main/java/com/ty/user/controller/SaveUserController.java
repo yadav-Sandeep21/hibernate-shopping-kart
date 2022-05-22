@@ -9,10 +9,10 @@ public class SaveUserController {
 		UserServices userServices=new UserServices();
 		
 		User user=new User();
-		user.setName("Rose");
-		user.setEmail("rose@gmail.com");
-		user.setPhone(77855l);
-		user.setPassword("neerajlovelily");
+		user.setName("Shuchi");
+		user.setEmail("shuchi@gmail.com");
+		user.setPhone(234567);
+		user.setPassword("shuchi");
 		userServices.saveUser(user);
 	}
 

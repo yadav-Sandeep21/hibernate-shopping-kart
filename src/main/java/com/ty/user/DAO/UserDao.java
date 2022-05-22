@@ -43,7 +43,7 @@ public class UserDao {
 		}
 		else
 		{
-			System.out.println("User detail not founf");
+			System.out.println("User detail not found");
 		}
 		
 		return null;
